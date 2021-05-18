@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin-block: 0;
+}
+body {
+  position: relative;
+  padding-bottom: 155px;
+}
+header {
+  /* width: 133px;
+  height: 25px; */
+  padding-left: 24px;
+  padding-top: 20px;
+}
+
+header .page-name {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  /* border: 5px solid red; */
+  color: #333333;
+}
+
+main {
+  padding-top: 4px;
+}
+
+.illustration-container,
+.details-container {
+  padding-top: 60px;
+}
+
+.details-container {
+  padding-left: 24px;
+}
+.illustration-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 286.83px;
+}
+
+.illustration-container img {
+  display: block;
+  max-width: 286.83px;
+  height: 238px;
+}
+
+.details-container h1 {
+  /* position: absolute;
+  width: 350px;
+  height: 142px;
+  left: 24px;
+  top: 407px; */
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.details-container p {
+  max-width: 328px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+  margin-bottom: 66px;
+}
+
+.details-container a {
+  /* Back to homepage */
+
+  display: inline-block;
+  background-color: #333333;
+  padding: 23px 44px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+footer {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+}
+footer > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #bdbdbd;
+}
+
+footer > p > span {
+  font-weight: 700;
+  text-decoration: underline;
+  align-items: center;
+}
